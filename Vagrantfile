@@ -26,8 +26,8 @@ Vagrant.configure("2") do |config|
         machine.vm.provision "shell", path: "master.sh"
       else
         machine.vm.provision "shell", path: "worker.sh"
+        machine.vm.provision "shell", path: "mount.sh"
       end
-
     end
   end
 end

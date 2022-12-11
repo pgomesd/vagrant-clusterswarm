@@ -1,0 +1,2 @@
+# Definição de um Cluster Swarm Local com o Vagrant
+### Projeto para desafio da DIO onde foi implementado a instação do NFS no cluster swarm e feito a configuração dos volumes, liberando sua respectiva porta no firewall e inicializando o MySQL no host.
